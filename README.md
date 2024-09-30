@@ -1,7 +1,7 @@
 # Threads-and-MergeSort: Parallel Merge Sort using Pthreads
 
 ## Objective
-This assignment involves rewriting a traditional merge sort program, `merge468.c`, to utilize threads for parallel merging using the **Pthreads API**. The numbers to be sorted are stored in an array `a[]` of size `N`, where `N` is assumed to be a power of 2.
+This student assignment involves rewriting a traditional merge sort program, `merge468.c`, to utilize threads for parallel merging using the **Pthreads API**. The numbers to be sorted are stored in an array `a[]` of size `N`, where `N` is assumed to be a power of 2.
 
 The goal is to perform the merging of subarrays in parallel using threads. For example, if `N = 16`, the program will follow these steps:
 
